@@ -2,7 +2,7 @@ const snacks = require('../models/snack');
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/trialfa');
+// mongoose.connect('mongodb://0.0.0.0:27017/snacksProj');
 
 const viewSnacks = async (req, res) => {
     const snacksView = await snacks.find({});

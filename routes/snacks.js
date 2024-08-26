@@ -2,9 +2,9 @@ const express = require('express');
 
 const router = express.Router();
 
-const mongoose = require('mongoose');
+// const mongoose = require('mongoose');
 
-const snacks = require('../models/snack.js');
+// const snacks = require('../models/snack.js');
 
 const {viewSnacks,createSnack,changeSnack,deleteSnack} = require('../controllers/snacks.js')
 
