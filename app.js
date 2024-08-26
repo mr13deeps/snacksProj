@@ -11,7 +11,7 @@ const bodyParser = require('body-parser');
 //console.log(snacks);
 //console.log(mongoose.model('snackModel'));
 
-mongoose.connect('mongodb://localhost:27017/trialfa').then(x=> console.log("connected"));
+mongoose.connect('mongodb://0.0.0.0:27017/snacks').then(x=> console.log("Database connected"));
 
 app.use(express.urlencoded({extended:false}));
 app.use(express.json());
